@@ -1,0 +1,85 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="100dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KIMS"
+      android:layout_marginTop="10dp"
+        android:textColor="#3418d2"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to login"
+      android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:checked="false"
+
+        android:layout_marginTop="250dp"/>
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to register "
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:text="WELCOME"
+        android:textColor="#3be4d0"
+        android:textSize="30dp"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/button"
+      android:layout_marginTop="350dp"
+        android:textSize="30dp"
+
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/button2"
+       android:layout_marginTop="350dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="30dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="204dp"
+        android:layout_height="122dp"
+
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="110dp"
+        android:layout_toEndOf="@+id/button"
+        android:src="@drawable/hsptl" />
+
+</RelativeLayout>
